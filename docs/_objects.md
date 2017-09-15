@@ -1,8 +1,6 @@
 # Objects
 ## Top level client library object
 
-> Include the FoxDen client library and print out the version.
-
 ```javascript
 const foxdenjs = require('foxden-js');
 let version = foxdenjs.getVersion();
@@ -25,14 +23,10 @@ console.log('The FoxDen Javascript Client Library Version is: ' + version);
 
 ## Session Object
 
-> Create a session with example data (returns not-authorized unless given valid token).
-
 ```javascript
 const foxdenjs = require('foxden-js');
 let session = foxdenjs.createSession({sessionId: 'TestUser@test.local', displayName: 'TestUser', authToken: '<base64JWT>'});
 ```
-
-> Create a session with input from user.
 
 ```html
 <html>
