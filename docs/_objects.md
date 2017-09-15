@@ -3,7 +3,7 @@
 
 > Include the FoxDen client library and print out the version.
 
-```javascript--node
+```javascript
 const foxdenjs = require('foxden-js');
 let version = foxdenjs.getVersion();
 console.log('The FoxDen Javascript Client Library Version is: ' + version);
@@ -22,8 +22,6 @@ console.log('The FoxDen Javascript Client Library Version is: ' + version);
 </body>
 </html>
 ```
-
-The main entry point for the client library provides the operations as described in [Operations](#operations).
 
 ## Session Object
 
@@ -60,4 +58,3 @@ let session = foxdenjs.createSession({sessionId: 'TestUser@test.local', displayN
 </html>
 ```
 
-The session object is used to add and remove video & screen-share streams to a conference.
