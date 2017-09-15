@@ -4,6 +4,7 @@
 ```javascript
 foxdenjs.createSession({sessionId, displayName, authToken})
 ```
+
 ### Parameters
 
 | Name        | Description |
